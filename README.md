@@ -76,8 +76,8 @@ Ensure you have `Python 3.12` or later installed. <br>
 Follow these steps to set up the local development environment:
 1. Clone the repository:
    ```shell
-   git clone https://github.com/yashanksingh/Secure-File-Sharing-System.git
-   cd Secure-File-Sharing-System
+   git clone https://github.com/ronaessi-28/Assessment-Ez-Works-.git
+   cd Assessment-Ez-Works
    ```
 2. Create a virtual environment:
    ```shell
