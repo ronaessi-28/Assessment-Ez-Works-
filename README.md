@@ -15,17 +15,45 @@ GET /list-files: (Client User) List all uploaded files.
 
 GET /download-file/<file_id>: (Client User) Download a file via a secure encrypted URL.
 
+### Technology Stack
+    Framework: Flask
+    Database: MongoDB
+    Authentication: JWT (JSON Web Tokens)
+    File Type Detection: python-magic
 
+## User Authentication:
+    Secure signup and login for both user types
+    Email verification for new users
+    JWT-based authentication
+
+## Security Measures:
+    Content-based file type verification
+    Secure file storage
+    Encrypted download URLs with expiration
+
+## File Management:
+    Secure file upload (restricted to Operation Users)
+    File listing
+    Secure file download with encrypted URLs
+
+## User Roles:
+    Operation User: Can upload, download files and list files
+    Client User: Can download files and list files
+
+    
 ### Key Actions
+
 1. Ops User
 Login: Secure login using JWT tokens for authentication.
 Upload File: Restrict file types (pptx, docx, xlsx) using file validation and limit upload permissions to Ops User.
-2. Client User
+
+3. Client User
 Sign Up: After registration, return an encrypted URL (using a library like cryptography or Fernet).
 Email Verification: Send verification email using SMTP libraries like smtplib or services like SendGrid.
 Login: Use JWT tokens for session management.
 Download File: Provide a secure, encrypted download URL accessible only to the authenticated Client User.
 List Files: Query the database for all available files uploaded by Ops Users.
+
 Encrypted URL Generation
 For downloading files, you can use an encryption scheme that ties the download URL to the user's identity, ensuring that only the client user can access the file.
 
