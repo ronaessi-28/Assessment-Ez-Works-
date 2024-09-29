@@ -192,10 +192,10 @@ A previous test log can be found at [tests/test_results.log](tests/test_results.
 ---
 
 ### Future Enhancements
-- Implement rate limiting for API endpoints
-- Add encryption for files stored at rest
-- Incorporate more detailed user permissions
-- Integrate logging and monitoring tools
+- Introduce rate limiting to API endpoints to prevent abuse.
+- Implement encryption for files stored at rest to enhance security.
+- Develop more granular user permission settings for better access control.
+- aAdd logging and monitoring capabilities to track application performance and issues
 
 ---
 
