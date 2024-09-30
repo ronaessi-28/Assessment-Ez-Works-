@@ -1,9 +1,17 @@
-/secure-file-sharing-app
-    ├── app.py
-    ├── models.py
-    ├── routes.py
-    ├── utils.py
-    ├── config.py
-    ├── requirements.txt
-    ├── Dockerfile
-    └── tests.py
+secure-file-sharing/
+│
+├── app/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── routes.py
+│   ├── utils.py
+│   ├── auth.py
+│   └── tests/
+│       └── test_routes.py
+│
+├── Dockerfile
+├── requirements.txt
+├── run.py
+├── README.md
+├── .gitignore
+└── LICENSE
