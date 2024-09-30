@@ -266,6 +266,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 For any issues or inquiries, feel free to reach out to:
 
 - **Email**: ronaessi28chhillar@gmail.com
-- **GitHub**: [your-github-profile](https://github.com/yourusername)
+- **GitHub**: https://github.com/ronaessi-28
 
 ---
