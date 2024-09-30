@@ -56,8 +56,8 @@ secure-file-sharing/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/secure-file-sharing.git
-cd secure-file-sharing
+git clone https://github.com/ronaessi-28/Assessment-Ez-Works-.git
+cd Assessment-Ez-Works
 ```
 
 ### 2. Create a Virtual Environment
@@ -265,7 +265,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 For any issues or inquiries, feel free to reach out to:
 
-- **Email**: your-email@example.com
+- **Email**: ronaessi28chhillar@gmail.com
 - **GitHub**: [your-github-profile](https://github.com/yourusername)
 
 ---
