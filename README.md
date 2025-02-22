@@ -1,7 +1,7 @@
 
 
 # Secure File Sharing System     
-
+   
 ## Overview
 
 This project is a secure file-sharing system built using the Flask framework and a NoSQL (MongoDB) or SQL (SQLAlchemy) database. It allows two types of users, Operations User (Ops User) and Client User, to perform specific file-sharing actions securely. The system supports user authentication, file uploads (for certain file types), and secure file downloads using encrypted URLs.
