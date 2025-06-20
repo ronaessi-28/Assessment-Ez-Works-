@@ -1,4 +1,4 @@
-from app import bcrypt, jwt
+from app import bcrypt, jwt 
 from flask_jwt_extended import create_access_token
 
 def authenticate_user(email, password):
