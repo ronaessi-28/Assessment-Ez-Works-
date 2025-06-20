@@ -1,5 +1,5 @@
 from app import mongo
-
+ 
 class User:
     def __init__(self, email, password, user_type):
         self.email = email
