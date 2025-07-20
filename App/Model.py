@@ -4,7 +4,7 @@ class User:
     def __init__(self, email, password, user_type):
         self.email = email
         self.password = password
-        self.user_type = user_type
+        self.user_type = user_type 
 
     def save_to_db(self):
         mongo.db.users.insert_one(self.__dict__)
