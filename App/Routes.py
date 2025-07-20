@@ -4,7 +4,7 @@ from app.models import User, File
 from app.auth import authenticate_user 
 from flask_jwt_extended import jwt_required, get_jwt_identity
 
-@app.route('/signup', methods=['POST'])
+@app.route('/signup', methods=['POST']) 
 def signup():
     data = request.get_json()
     hashed_password = bcrypt.generate_password_hash(data['password']).decode('utf-8')
