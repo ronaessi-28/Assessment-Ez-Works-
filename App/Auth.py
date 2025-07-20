@@ -7,3 +7,4 @@ def authenticate_user(email, password):
         return create_access_token(identity={'email': user['email'], 'user_type': user['user_type']})
     return None
   
+ 
