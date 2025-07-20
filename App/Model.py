@@ -3,7 +3,7 @@ from app import mongo
 class User:
     def __init__(self, email, password, user_type):
         self.email = email
-        self.password = password
+        self.password = password 
         self.user_type = user_type 
 
     def save_to_db(self):
